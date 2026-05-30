@@ -1,16 +1,16 @@
 # su26-ai301-contribution
-# Contribution [#]: [Issue Title]
+# Contribution [1]: [Inconsistent Testing Script in Basic Debugging Java]
 
 **Contribution Number:** [1]  
 **Student:** [Faiyaj Chowdhury]  
-**Issue:** []  
+**Issue:** [https://github.com/cpinitiative/usaco-guide/issues/3179]  
 **Status:** [Phase I] [In Progress]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+[I chose this issue because the current Java-specific testing script on the Basic Debugging page defeats the purpose of the section, which is to demonstrate stress-testing — running two solutions against each other to find bugs. This concept is language-agnostic, and the fix is making the script work across C++, Python, and Java with only one line needing to change per language. The issue is well-scoped with clear acceptance criteria from the maintainer and aligns with my analytical background in understanding how code logic should be structured.]
 
 ---
 
@@ -18,19 +18,19 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+[Testing script is not language agnostic]
 
 ### Expected Behavior
 
-[What should happen?]
+[Testing script should work across all programming languages with minimal manipulation]
 
 ### Current Behavior
 
-[What actually happens?]
+[Testing script is java specific use only]
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+[basic debuggin page for java]
 
 ---
 
